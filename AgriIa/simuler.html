@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Simulation Agricole IA - AgriIA Afrique</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/simuler.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+
+    <div class="container">
+
+      <a class="navbar-brand fw-bold" href="#">
+        🌱 AgriIA Afrique
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="acceuil.html">
+              🏠 Accueil
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="apprendre.html">
+              📚 Apprendre
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="tutoriel.html">
+              🎓 Tutoriel IA
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="simuler.html">
+              🔬 Simuler
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="conseils.html">
+              💡 Conseils IA
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="profil.html">
+              👤 Profil
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="apropos.html">
+              ℹ️ À propos
+            </a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex">
+
+          <input class="form-control me-2" type="search" placeholder="Recherche">
+
+          <button class="btn btn-light">
+            Recherche
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero-section">
+
+    <div class="container">
+
+      <h1>
+        🔬 Simulation Agricole Intelligente
+      </h1>
+
+      <p>
+        Simulez les meilleures conditions agricoles grâce
+        à l'intelligence artificielle et obtenez des recommandations adaptées.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FORMULAIRE ================= -->
+
+  <section class="container simulation-section">
+
+    <div class="simulation-card">
+
+      <div class="section-title">
+
+        <h2>
+          🌾 Paramètres de Simulation
+        </h2>
+
+        <p>
+          Configurez votre environnement agricole.
+        </p>
+
+      </div>
+
+      <form>
+
+        <div class="row g-4">
+
+          <!-- CULTURE -->
+          <div class="col-md-6">
+
+            <label class="form-label">
+              🌾 Culture
+            </label>
+
+            <select class="form-select">
+
+              <option selected>Maïs</option>
+              <option>Manioc</option>
+              <option>Niébé</option>
+              <option>Arachide</option>
+              <option>Blé</option>
+              <option>Igname</option>
+              <option>Maraîchage</option>
+              <option>Millet</option>
+              <option>Sorgho</option>
+              <option>Riz</option>
+
+            </select>
+
+          </div>
+
+          <!-- REGION -->
+          <div class="col-md-6">
+
+            <label class="form-label">
+              🗺️ Région
+            </label>
+
+            <select class="form-select">
+
+              <option selected>Afrique de l'Ouest</option>
+              <option>Afrique du Nord</option>
+              <option>Afrique Centrale</option>
+              <option>Afrique Australe</option>
+              <option>Afrique de l'Est</option>
+
+            </select>
+
+          </div>
+
+          <!-- SOL -->
+          <div class="col-md-6">
+
+            <label class="form-label">
+              🪨 Type de sol
+            </label>
+
+            <select class="form-select">
+
+              <option selected>Argileux</option>
+              <option>Sablonneux</option>
+              <option>Limoneux</option>
+              <option>Lourd</option>
+
+            </select>
+
+          </div>
+
+          <!-- SAISON -->
+          <div class="col-md-6">
+
+            <label class="form-label">
+              🌦️ Saison
+            </label>
+
+            <select class="form-select">
+
+              <option selected>Saison pluvieuse</option>
+              <option>Saison sèche</option>
+
+            </select>
+
+          </div>
+
+        </div>
+
+        <!-- BUTTON -->
+
+        <div class="text-center mt-5">
+
+          <button class="btn simulation-btn">
+
+            🚀 Lancer la simulation
+
+          </button>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- ================= RESULTATS ================= -->
+
+  <section class="container results-section">
+
+    <div class="row g-4">
+
+      <!-- RESULTAT 1 -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="result-card">
+
+          <div class="result-icon">
+            🌱
+          </div>
+
+          <h4>
+            Croissance estimée
+          </h4>
+
+          <p>
+            Analyse intelligente des conditions
+            optimales de croissance.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- RESULTAT 2 -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="result-card">
+
+          <div class="result-icon">
+            💧
+          </div>
+
+          <h4>
+            Besoins en eau
+          </h4>
+
+          <p>
+            Estimation automatique de l'irrigation
+            selon le climat.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- RESULTAT 3 -->
+      <div class="col-lg-4 col-md-6">
+
+        <div class="result-card">
+
+          <div class="result-icon">
+            📈
+          </div>
+
+          <h4>
+            Rendement prévisionnel
+          </h4>
+
+          <p>
+            Prévisions de production basées
+            sur l'intelligence artificielle.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <p>
+        🌱 AgriIA Afrique — Développement des talents agricoles
+        en Afrique de l'Ouest et au-delà.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

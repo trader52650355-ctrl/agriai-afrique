@@ -1,0 +1,175 @@
+/* ================= GLOBAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: linear-gradient(90deg, #198754, #157347);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffe082 !important;
+}
+
+/* ================= HERO ================= */
+
+.hero-section {
+    padding-top: 140px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: linear-gradient(rgba(25, 135, 84, 0.9),
+            rgba(25, 135, 84, 0.8)),
+        url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop') center/cover;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ================= FILTRES ================= */
+
+.filter-card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form-select {
+    height: 50px;
+    border-radius: 12px;
+}
+
+/* ================= TITRE ================= */
+
+.section-title h2 {
+    font-weight: bold;
+    color: #198754;
+    margin-bottom: 10px;
+}
+
+/* ================= CARDS ================= */
+
+.tutorial-link {
+    text-decoration: none;
+}
+
+.tutorial-card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px 25px;
+    height: 100%;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.tutorial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.step-badge {
+    display: inline-block;
+    background: #198754;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.tutorial-card h4 {
+    color: #198754;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.tutorial-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+
+    .hero-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding-top: 120px;
+        padding-bottom: 60px;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .filter-card {
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 1.7rem;
+    }
+
+    .tutorial-card {
+        padding: 25px 20px;
+    }
+
+}

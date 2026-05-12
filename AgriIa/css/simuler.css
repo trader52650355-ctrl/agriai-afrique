@@ -1,0 +1,312 @@
+/* ================= GLOBAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f7fb;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background: linear-gradient(90deg, #198754, #157347);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffe082 !important;
+}
+
+/* ================= HERO ================= */
+
+.hero-section {
+
+    padding-top: 150px;
+    padding-bottom: 90px;
+
+    text-align: center;
+    color: white;
+
+    background:
+        linear-gradient(rgba(25, 135, 84, 0.85),
+            rgba(25, 135, 84, 0.85)),
+        url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop');
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1 {
+
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.hero-section p {
+
+    font-size: 1.2rem;
+    max-width: 750px;
+    margin: auto;
+    line-height: 1.8;
+
+}
+
+/* ================= FORM ================= */
+
+.simulation-section {
+
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.simulation-card {
+
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+
+}
+
+.section-title {
+
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.section-title h2 {
+
+    color: #198754;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.section-title p {
+
+    color: #666;
+
+}
+
+/* ================= INPUT ================= */
+
+.form-label {
+
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.form-select {
+
+    height: 55px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+
+}
+
+.form-select:focus {
+
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.2);
+
+}
+
+/* ================= BUTTON ================= */
+
+.simulation-btn {
+
+    background: linear-gradient(90deg, #198754, #157347);
+    color: white;
+
+    padding: 15px 40px;
+    border-radius: 50px;
+
+    border: none;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    transition: 0.4s;
+
+}
+
+.simulation-btn:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(25, 135, 84, 0.3);
+
+}
+
+/* ================= RESULTATS ================= */
+
+.results-section {
+
+    padding: 80px 0;
+
+}
+
+.result-card {
+
+    background: white;
+    padding: 40px 30px;
+
+    border-radius: 25px;
+    text-align: center;
+
+    transition: 0.4s;
+
+    height: 100%;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+
+}
+
+.result-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+
+}
+
+.result-icon {
+
+    width: 90px;
+    height: 90px;
+
+    background: #198754;
+    color: white;
+
+    border-radius: 50%;
+
+    margin: auto;
+    margin-bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.3rem;
+
+}
+
+.result-card h4 {
+
+    color: #198754;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+
+.result-card p {
+
+    color: #555;
+    line-height: 1.8;
+
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+
+    background: #198754;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px 15px;
+    margin-top: 50px;
+
+}
+
+.footer p {
+
+    margin: 0;
+
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 992px) {
+
+    .hero-section h1 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .simulation-card {
+
+        padding: 35px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .hero-section {
+
+        padding-top: 130px;
+        padding-bottom: 70px;
+
+    }
+
+    .hero-section h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .hero-section p {
+
+        font-size: 1rem;
+
+    }
+
+    .simulation-card {
+
+        padding: 25px;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .result-card {
+
+        padding: 30px 20px;
+
+    }
+
+}

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Profil - AgriIA Afrique</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/profil.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                🌱 AgriIA Afrique
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="acceuil.html">
+                            🏠 Accueil
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="apprendre.html">
+                            📚 Apprendre
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutoriel.html">
+                            🎓 Tutoriel IA
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="simuler.html">
+                            🔬 Simuler
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="conseils.html">
+                            💡 Conseils IA
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profil.html">
+                            👤 Profil
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="apropos.html">
+                            ℹ️ À propos
+                        </a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+
+                    <input class="form-control me-2" type="search" placeholder="Recherche">
+
+                    <button class="btn btn-light">
+                        Recherche
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero-section">
+
+        <div class="container">
+
+            <div class="profile-avatar">
+                👤
+            </div>
+
+            <h1>
+                Mon Profil Agricole
+            </h1>
+
+            <p>
+                Gérez vos informations, vos objectifs et suivez
+                votre progression dans l'apprentissage agricole intelligent.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROFIL ================= -->
+
+    <section class="container profile-section">
+
+        <div class="profile-card">
+
+            <div class="section-title">
+
+                <h2>
+                    🧑‍🌾 Informations personnelles
+                </h2>
+
+            </div>
+
+            <form>
+
+                <!-- NOM -->
+                <div class="mb-4">
+
+                    <label class="form-label">
+                        Nom et prénom
+                    </label>
+
+                    <input type="text" class="form-control" placeholder="John Doe">
+
+                </div>
+
+                <!-- NIVEAU -->
+                <div class="mb-4">
+
+                    <label class="form-label">
+                        Votre niveau
+                    </label>
+
+                    <select class="form-select">
+
+                        <option selected>
+                            Choisissez votre niveau
+                        </option>
+
+                        <option>
+                            Débutant
+                        </option>
+
+                        <option>
+                            Intermédiaire
+                        </option>
+
+                        <option>
+                            Avancé
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= OBJECTIFS ================= -->
+
+    <section class="container objectives-section">
+
+        <div class="profile-card">
+
+            <div class="section-title">
+
+                <h2>
+                    🎯 Vos objectifs
+                </h2>
+
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+
+                    <div class="objective-item">
+                        <input type="checkbox" class="form-check-input">
+                        <span>
+                            Protéger mes cultures des maladies
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="objective-item">
+                        <input type="checkbox" class="form-check-input">
+                        <span>
+                            Améliorer ma sécurité alimentaire
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="objective-item">
+                        <input type="checkbox" class="form-check-input">
+                        <span>
+                            Bien irriguer avec moins d'eau
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="objective-item">
+                        <input type="checkbox" class="form-check-input">
+                        <span>
+                            Utiliser l'IA pour l'agriculture
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="objective-item">
+                        <input type="checkbox" class="form-check-input">
+                        <span>
+                            Produire plus de maïs
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= BADGES ================= -->
+
+    <section class="container badges-section">
+
+        <div class="section-title">
+
+            <h2>
+                🏅 Badges obtenus
+            </h2>
+
+            <p>
+                Continuez votre apprentissage pour débloquer des récompenses.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <!-- BADGE -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="badge-card locked">
+
+                    <div class="badge-icon">
+                        🌾
+                    </div>
+
+                    <h5>
+                        Débutant Agricole
+                    </h5>
+
+                    <p>
+                        Compléter 5 leçons agricoles.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- BADGE -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="badge-card locked">
+
+                    <div class="badge-icon">
+                        🤖
+                    </div>
+
+                    <h5>
+                        Expert IA
+                    </h5>
+
+                    <p>
+                        Utiliser l'assistant IA 20 fois.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- BADGE -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="badge-card locked">
+
+                    <div class="badge-icon">
+                        💧
+                    </div>
+
+                    <h5>
+                        Gestionnaire d'eau
+                    </h5>
+
+                    <p>
+                        Réussir une simulation d'irrigation.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- BADGE -->
+            <div class="col-lg-3 col-md-6">
+
+                <div class="badge-card locked">
+
+                    <div class="badge-icon">
+                        📈
+                    </div>
+
+                    <h5>
+                        Producteur Pro
+                    </h5>
+
+                    <p>
+                        Atteindre 100% de progression.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROGRESS ================= -->
+
+    <section class="container progress-section">
+
+        <div class="profile-card">
+
+            <div class="section-title">
+
+                <h2>
+                    📊 Suivi des progrès
+                </h2>
+
+            </div>
+
+            <!-- Progression 1 -->
+            <div class="progress-item">
+
+                <div class="progress-label">
+
+                    <span>
+                        Leçons terminées
+                    </span>
+
+                    <span>
+                        0 / 10
+                    </span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 0%">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Progression 2 -->
+            <div class="progress-item">
+
+                <div class="progress-label">
+
+                    <span>
+                        Simulations réalisées
+                    </span>
+
+                    <span>
+                        0 / 5
+                    </span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 0%">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Progression 3 -->
+            <div class="progress-item">
+
+                <div class="progress-label">
+
+                    <span>
+                        Tutoriels IA suivis
+                    </span>
+
+                    <span>
+                        0 / 8
+                    </span>
+
+                </div>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 0%">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                🌱 AgriIA Afrique — Développement des talents agricoles
+                en Afrique de l'Ouest et au-delà.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
